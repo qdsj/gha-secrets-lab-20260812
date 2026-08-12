@@ -1,0 +1,14 @@
+{
+  "name": "gha-secrets-lab-20260812",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "probe": "node probe.mjs",
+    "test": "node --test probe.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
+
